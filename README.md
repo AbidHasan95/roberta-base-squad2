@@ -5,7 +5,11 @@ datasets:
 
 # roberta-base for QA 
 
-NOTE: This is version 2 of the model. See [this github issue](https://github.com/deepset-ai/FARM/issues/552) from the FARM repository for an explanation of why we updated.
+NOTE: This is version 2 of the model. See [this github issue](https://github.com/deepset-ai/FARM/issues/552) from the FARM repository for an explanation of why we updated. If you'd like to use version 1, specify `revision="v1.0"` when loading the model in Transformers 3.5. For exmaple:
+```
+model_name = "deepset/roberta-base-squad2"
+pipeline(model=model_name, tokenizer=model_name, revision="v1.0", task="question-answering")
+```
 
 ## Overview
 **Language model:** roberta-base  
@@ -50,11 +54,9 @@ Evaluated on the SQuAD 2.0 dev set with the [official eval script](https://works
 
 ### In Transformers
 ```python
-from transformers.pipelines import pipeline
-from transformers.modeling_auto import AutoModelForQuestionAnswering
-from transformers.tokenization_auto import AutoTokenizer
+from transformers import AutoModelForQuestionAnswering, AutoTokenizer, pipeline
 
-model_name = "deepset/roberta-base-squad2-v2"
+model_name = "deepset/roberta-base-squad2"
 
 # a) Get predictions
 nlp = pipeline('question-answering', model=model_name, tokenizer=model_name)
@@ -76,7 +78,7 @@ from farm.modeling.adaptive_model import AdaptiveModel
 from farm.modeling.tokenization import Tokenizer
 from farm.infer import Inferencer
 
-model_name = "deepset/roberta-base-squad2-v2"
+model_name = "deepset/roberta-base-squad2"
 
 # a) Get predictions
 nlp = Inferencer.load(model_name, task_type="question_answering")
@@ -94,7 +96,7 @@ For doing QA at scale (i.e. many docs instead of single paragraph), you can load
 ```python
 reader = FARMReader(model_name_or_path="deepset/roberta-base-squad2")
 # or 
-reader = TransformersReader(model="deepset/roberta-base-squad2",tokenizer="deepset/roberta-base-squad2")
+reader = TransformersReader(model_name_or_path="deepset/roberta-base-squad2",tokenizer="deepset/roberta-base-squad2")
 ```
 
 
@@ -117,4 +119,3 @@ Some of our work:
 
 Get in touch:
 [Twitter](https://twitter.com/deepset_ai) | [LinkedIn](https://www.linkedin.com/company/deepset-ai/) | [Website](https://deepset.ai)
-
