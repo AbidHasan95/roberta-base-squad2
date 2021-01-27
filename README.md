@@ -1,6 +1,7 @@
 ---
 datasets:
 - squad_v2
+license: cc-by-4.0
 ---
 
 # roberta-base for QA 
