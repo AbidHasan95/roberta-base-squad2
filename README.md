@@ -115,8 +115,11 @@ Our focus: Industry specific language models & large scale QA systems.
   
 Some of our work: 
 - [German BERT (aka "bert-base-german-cased")](https://deepset.ai/german-bert)
+- [GermanQuAD and GermanDPR datasets and models (aka "gelectra-base-germanquad", "gbert-base-germandpr")](https://deepset.ai/germanquad)
 - [FARM](https://github.com/deepset-ai/FARM)
 - [Haystack](https://github.com/deepset-ai/haystack/)
 
 Get in touch:
-[Twitter](https://twitter.com/deepset_ai) | [LinkedIn](https://www.linkedin.com/company/deepset-ai/) | [Website](https://deepset.ai)
+[Twitter](https://twitter.com/deepset_ai) | [LinkedIn](https://www.linkedin.com/company/deepset-ai/) | [Slack](https://haystack.deepset.ai/community/join) | [GitHub Discussions](https://github.com/deepset-ai/haystack/discussions) | [Website](https://deepset.ai)
+
+By the way: [we're hiring!](https://apply.workable.com/deepset/) 
