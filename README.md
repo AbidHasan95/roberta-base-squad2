@@ -108,8 +108,7 @@ Malte Pietsch: `malte.pietsch [at] deepset.ai`
 Tanay Soni: `tanay.soni [at] deepset.ai`
 
 ## About us
-![deepset logo](https://raw.githubusercontent.com/deepset-ai/FARM/master/docs/img/deepset_logo.png)
-
+![deepset logo](https://workablehr.s3.amazonaws.com/uploads/account/logo/476306/logo)
 We bring NLP to the industry via open source!  
 Our focus: Industry specific language models & large scale QA systems.  
   
