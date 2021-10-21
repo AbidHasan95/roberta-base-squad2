@@ -121,4 +121,4 @@ Some of our work:
 Get in touch:
 [Twitter](https://twitter.com/deepset_ai) | [LinkedIn](https://www.linkedin.com/company/deepset-ai/) | [Slack](https://haystack.deepset.ai/community/join) | [GitHub Discussions](https://github.com/deepset-ai/haystack/discussions) | [Website](https://deepset.ai)
 
-By the way: [we're hiring!](https://deepset.jobs.personio.de/?language=en&display=undefined) 
+By the way: [we're hiring!](http://www.deepset.ai/jobs) 
