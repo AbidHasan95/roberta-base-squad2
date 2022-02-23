@@ -40,15 +40,15 @@ max_query_length=64
 Evaluated on the SQuAD 2.0 dev set with the [official eval script](https://worksheets.codalab.org/rest/bundles/0x6b567e1cf2e041ec80d7098f031c5c9e/contents/blob/).
 
 ```
-"exact": 79.97136359807968
-"f1": 83.00449234495325
+"exact": 79.87029394424324,
+"f1": 82.91251169582613,
 
-"total": 11873
-"HasAns_exact": 78.03643724696356
-"HasAns_f1": 84.11139298441825
-"HasAns_total": 5928
-"NoAns_exact": 81.90075693860386
-"NoAns_f1": 81.90075693860386
+"total": 11873,
+"HasAns_exact": 77.93522267206478,
+"HasAns_f1": 84.02838248389763,
+"HasAns_total": 5928,
+"NoAns_exact": 81.79983179142137,
+"NoAns_f1": 81.79983179142137,
 "NoAns_total": 5945
 ```
 
