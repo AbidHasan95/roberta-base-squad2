@@ -84,7 +84,7 @@ Evaluated on the SQuAD 2.0 dev set with the [official eval script](https://works
 
 ## Authors
 **Branden Chan:** branden.chan@deepset.ai  
-**Timo Möller:** timo.moelle@deepset.ai  
+**Timo Möller:** timo.moeller@deepset.ai  
 **Malte Pietsch:** malte.pietsch@deepset.ai  
 **Tanay Soni:**  tanay.soni@deepset.ai 
 
