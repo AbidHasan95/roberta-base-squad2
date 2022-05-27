@@ -39,7 +39,7 @@ Please note that we have also released a distilled version of this model called 
 ## Usage
 
 ### In Haystack
-Haystack is an NLP framework by deepset. You can use this model in a Hasytack pipeline to do question answering at scale (over many documents). To load the model in [Haystack](https://github.com/deepset-ai/haystack/):
+Haystack is an NLP framework by deepset. You can use this model in a Haystack pipeline to do question answering at scale (over many documents). To load the model in [Haystack](https://github.com/deepset-ai/haystack/):
 ```python
 reader = FARMReader(model_name_or_path="deepset/roberta-base-squad2")
 # or 
