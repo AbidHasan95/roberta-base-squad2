@@ -3,6 +3,30 @@ language: en
 datasets:
 - squad_v2
 license: cc-by-4.0
+model-index:
+- name: deepset/roberta-base-squad2
+  results:
+  - task:
+      type: question-answering
+      name: Question Answering
+    dataset:
+      name: squad_v2
+      type: squad_v2
+      config: squad_v2
+      split: validation
+    metrics:
+    - name: Exact Match
+      type: exact_match
+      value: 79.9309
+      verified: true
+    - name: F1
+      type: f1
+      value: 82.9501
+      verified: true
+    - name: total
+      type: total
+      value: 11869
+      verified: true
 ---
 
 # roberta-base for QA 
